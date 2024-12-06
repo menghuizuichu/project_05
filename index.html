@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>寻宝游戏</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      text-align: center;
+    }
+    .game-container {
+      margin: 50px auto;
+      padding: 20px;
+      width: 80%;
+      max-width: 600px;
+      border: 2px solid #00f;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 255, 0.3);
+    }
+    .progress-bar {
+      height: 20px;
+      background: #00f;
+      border-radius: 10px;
+      margin: 20px 0;
+      width: 0%;
+      transition: width 1s;
+    }
+    .task {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    .task.complete {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="game-container">
+    <h1>寻宝游戏</h1>
+    <div id="progress" class="progress-bar"></div>
+    <div id="task-container"></div>
+    <button id="start-btn">开始寻宝</button>
+  </div>
+
+  <script src="treasure.js"></script>
+</body>
+</html>

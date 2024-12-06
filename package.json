@@ -1,0 +1,15 @@
+{
+  "name": "my_parcel_app",
+  "version": "1.0.0",
+  "description": "一个简单的npm包，用于学习npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html"
+  },
+  "author": "haerin",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
